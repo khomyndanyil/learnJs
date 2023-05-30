@@ -21,7 +21,7 @@
 
 Проверить, чтобы все работало без ошибок в консоли */
 
-'use strict';
+// 'use strict';
 
 const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '')
 
@@ -41,6 +41,12 @@ for(let i = 0; i<2; i++) {
 personalMovieDB.actors.some = 'some'
 
 console.log(personalMovieDB)
+
+let answ = ''
+
+(50 === 50) ? answ = 'good' : answ = 'tormoz';
+
+console.log(answ)
 
 
 
